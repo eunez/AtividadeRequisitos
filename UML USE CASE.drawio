@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sistema de Vendas" id="EqlIfN065WyNwTBMun-i">
+    <mxGraphModel dx="1030" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8JI6MkulVHIsaNnH4kog-1" parent="1" style="shape=mxgraph.sysml.package;html=1;verticalAlign=top;labelBackgroundColor=none;align=center;fillColor=none;strokeColor=#000000;strokeWidth=2;" value="Sistema de Gestão de Vendas" vertex="1">
+          <mxGeometry height="400" width="320" x="280" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar Catálogo" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Processar Pedido" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gerar Relatório" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Visualizar Produto" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Efetuar Compra" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrar Loja" vertex="1">
+          <mxGeometry height="60" width="30" x="720" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-8" edge="1" parent="1" source="8JI6MkulVHIsaNnH4kog-5" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8JI6MkulVHIsaNnH4kog-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-9" edge="1" parent="1" source="8JI6MkulVHIsaNnH4kog-6" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8JI6MkulVHIsaNnH4kog-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-10" edge="1" parent="1" source="8JI6MkulVHIsaNnH4kog-7" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8JI6MkulVHIsaNnH4kog-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8JI6MkulVHIsaNnH4kog-11" edge="1" parent="1" source="8JI6MkulVHIsaNnH4kog-7" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8JI6MkulVHIsaNnH4kog-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
